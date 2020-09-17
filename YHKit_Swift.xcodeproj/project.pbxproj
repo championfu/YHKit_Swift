@@ -49,7 +49,6 @@
 		688486812512FD17003823FD /* YHBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688485DB2512FD16003823FD /* YHBaseViewController.swift */; };
 		688486822512FD17003823FD /* YHBaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688485DC2512FD16003823FD /* YHBaseModel.swift */; };
 		688486832512FD17003823FD /* YHBaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688485DD2512FD16003823FD /* YHBaseNavigationController.swift */; };
-		688486842512FD17003823FD /* YHBaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688485DE2512FD16003823FD /* YHBaseTabBarController.swift */; };
 		688486852512FD17003823FD /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688485E12512FD16003823FD /* SwiftyJSON.swift */; };
 		688486862512FD17003823FD /* ConstraintMultiplierTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688485E32512FD16003823FD /* ConstraintMultiplierTarget.swift */; };
 		688486872512FD17003823FD /* LayoutConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688485E42512FD16003823FD /* LayoutConstraintItem.swift */; };
@@ -120,36 +119,6 @@
 		688486C82512FD17003823FD /* ExtendCustomBasicType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688486262512FD16003823FD /* ExtendCustomBasicType.swift */; };
 		688486C92512FD17003823FD /* TransformOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688486272512FD16003823FD /* TransformOf.swift */; };
 		688486CA2512FD17003823FD /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688486282512FD16003823FD /* Configuration.swift */; };
-		688486CB2512FD17003823FD /* RAMAnimatedTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6884862A2512FD16003823FD /* RAMAnimatedTabBarItem.swift */; };
-		688486CC2512FD17003823FD /* Collection+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6884862C2512FD16003823FD /* Collection+Extensions.swift */; };
-		688486CD2512FD17003823FD /* RAMAnimatedTabBarController+BottomLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6884862E2512FD16003823FD /* RAMAnimatedTabBarController+BottomLine.swift */; };
-		688486CE2512FD17003823FD /* RAMAnimatedTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6884862F2512FD16003823FD /* RAMAnimatedTabBarController.swift */; };
-		688486CF2512FD17003823FD /* RAMBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688486312512FD16003823FD /* RAMBadge.swift */; };
-		688486D02512FD17003823FD /* RAMItemAnimationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688486322512FD16003823FD /* RAMItemAnimationProtocol.swift */; };
-		688486D12512FD17003823FD /* RAMFumeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688486352512FD16003823FD /* RAMFumeAnimation.swift */; };
-		688486D22512FD17003823FD /* RAMFrameItemAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688486372512FD16003823FD /* RAMFrameItemAnimation.swift */; };
-		688486D32512FD17003823FD /* RAMTransitionItemAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688486392512FD16003823FD /* RAMTransitionItemAnimations.swift */; };
-		688486D42512FD17003823FD /* RAMRotationAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6884863B2512FD16003823FD /* RAMRotationAnimation.swift */; };
-		688486D52512FD17003823FD /* RAMBounceAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6884863D2512FD16003823FD /* RAMBounceAnimation.swift */; };
-		688486D62512FD17003823FD /* Permissible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688486402512FD16003823FD /* Permissible.swift */; };
-		688486D72512FD17003823FD /* PermissionResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688486412512FD16003823FD /* PermissionResult.swift */; };
-		688486D82512FD17003823FD /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688486422512FD16003823FD /* Extensions.swift */; };
-		688486D92512FD17003823FD /* PermissionConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688486432512FD16003823FD /* PermissionConfiguration.swift */; };
-		688486DA2512FD17003823FD /* PermissionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688486442512FD16003823FD /* PermissionService.swift */; };
-		688486DB2512FD17003823FD /* PrivacyConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688486452512FD16003823FD /* PrivacyConfiguration.swift */; };
-		688486DC2512FD17003823FD /* Microphone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688486472512FD16003823FD /* Microphone.swift */; };
-		688486DD2512FD17003823FD /* SpeechRecognition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688486492512FD16003823FD /* SpeechRecognition.swift */; };
-		688486DE2512FD17003823FD /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6884864B2512FD16003823FD /* Camera.swift */; };
-		688486DF2512FD17003823FD /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6884864D2512FD16003823FD /* Location.swift */; };
-		688486E02512FD17003823FD /* LocationConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6884864E2512FD16003823FD /* LocationConfiguration.swift */; };
-		688486E12512FD17003823FD /* Gallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688486502512FD16003823FD /* Gallery.swift */; };
-		688486E22512FD17003823FD /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688486522512FD16003823FD /* Contacts.swift */; };
-		688486E32512FD17003823FD /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688486542512FD16003823FD /* Reminder.swift */; };
-		688486E42512FD17003823FD /* Bluetooth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688486562512FD16003823FD /* Bluetooth.swift */; };
-		688486E52512FD17003823FD /* Siri.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688486582512FD16003823FD /* Siri.swift */; };
-		688486E62512FD17003823FD /* MediaLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6884865A2512FD16003823FD /* MediaLibrary.swift */; };
-		688486E72512FD17003823FD /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6884865C2512FD16003823FD /* Events.swift */; };
-		688486E82512FD17003823FD /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6884865E2512FD16003823FD /* Notifications.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -197,7 +166,6 @@
 		688485DB2512FD16003823FD /* YHBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YHBaseViewController.swift; sourceTree = "<group>"; };
 		688485DC2512FD16003823FD /* YHBaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YHBaseModel.swift; sourceTree = "<group>"; };
 		688485DD2512FD16003823FD /* YHBaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YHBaseNavigationController.swift; sourceTree = "<group>"; };
-		688485DE2512FD16003823FD /* YHBaseTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YHBaseTabBarController.swift; sourceTree = "<group>"; };
 		688485E12512FD16003823FD /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 		688485E32512FD16003823FD /* ConstraintMultiplierTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMultiplierTarget.swift; sourceTree = "<group>"; };
 		688485E42512FD16003823FD /* LayoutConstraintItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutConstraintItem.swift; sourceTree = "<group>"; };
@@ -268,36 +236,6 @@
 		688486262512FD16003823FD /* ExtendCustomBasicType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtendCustomBasicType.swift; sourceTree = "<group>"; };
 		688486272512FD16003823FD /* TransformOf.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransformOf.swift; sourceTree = "<group>"; };
 		688486282512FD16003823FD /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
-		6884862A2512FD16003823FD /* RAMAnimatedTabBarItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMAnimatedTabBarItem.swift; sourceTree = "<group>"; };
-		6884862C2512FD16003823FD /* Collection+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Collection+Extensions.swift"; sourceTree = "<group>"; };
-		6884862E2512FD16003823FD /* RAMAnimatedTabBarController+BottomLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RAMAnimatedTabBarController+BottomLine.swift"; sourceTree = "<group>"; };
-		6884862F2512FD16003823FD /* RAMAnimatedTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMAnimatedTabBarController.swift; sourceTree = "<group>"; };
-		688486312512FD16003823FD /* RAMBadge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMBadge.swift; sourceTree = "<group>"; };
-		688486322512FD16003823FD /* RAMItemAnimationProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMItemAnimationProtocol.swift; sourceTree = "<group>"; };
-		688486352512FD16003823FD /* RAMFumeAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMFumeAnimation.swift; sourceTree = "<group>"; };
-		688486372512FD16003823FD /* RAMFrameItemAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMFrameItemAnimation.swift; sourceTree = "<group>"; };
-		688486392512FD16003823FD /* RAMTransitionItemAnimations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMTransitionItemAnimations.swift; sourceTree = "<group>"; };
-		6884863B2512FD16003823FD /* RAMRotationAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMRotationAnimation.swift; sourceTree = "<group>"; };
-		6884863D2512FD16003823FD /* RAMBounceAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMBounceAnimation.swift; sourceTree = "<group>"; };
-		688486402512FD16003823FD /* Permissible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Permissible.swift; sourceTree = "<group>"; };
-		688486412512FD16003823FD /* PermissionResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PermissionResult.swift; sourceTree = "<group>"; };
-		688486422512FD16003823FD /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		688486432512FD16003823FD /* PermissionConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PermissionConfiguration.swift; sourceTree = "<group>"; };
-		688486442512FD16003823FD /* PermissionService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PermissionService.swift; sourceTree = "<group>"; };
-		688486452512FD16003823FD /* PrivacyConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrivacyConfiguration.swift; sourceTree = "<group>"; };
-		688486472512FD16003823FD /* Microphone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Microphone.swift; sourceTree = "<group>"; };
-		688486492512FD16003823FD /* SpeechRecognition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeechRecognition.swift; sourceTree = "<group>"; };
-		6884864B2512FD16003823FD /* Camera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
-		6884864D2512FD16003823FD /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
-		6884864E2512FD16003823FD /* LocationConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationConfiguration.swift; sourceTree = "<group>"; };
-		688486502512FD16003823FD /* Gallery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gallery.swift; sourceTree = "<group>"; };
-		688486522512FD16003823FD /* Contacts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contacts.swift; sourceTree = "<group>"; };
-		688486542512FD16003823FD /* Reminder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
-		688486562512FD16003823FD /* Bluetooth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bluetooth.swift; sourceTree = "<group>"; };
-		688486582512FD16003823FD /* Siri.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Siri.swift; sourceTree = "<group>"; };
-		6884865A2512FD16003823FD /* MediaLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaLibrary.swift; sourceTree = "<group>"; };
-		6884865C2512FD16003823FD /* Events.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Events.swift; sourceTree = "<group>"; };
-		6884865E2512FD16003823FD /* Notifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -454,7 +392,6 @@
 				688485DB2512FD16003823FD /* YHBaseViewController.swift */,
 				688485DC2512FD16003823FD /* YHBaseModel.swift */,
 				688485DD2512FD16003823FD /* YHBaseNavigationController.swift */,
-				688485DE2512FD16003823FD /* YHBaseTabBarController.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -465,8 +402,6 @@
 				688485E02512FD16003823FD /* SwiftyJSON */,
 				688485E22512FD16003823FD /* SnapKit */,
 				688486052512FD16003823FD /* HandyJSON */,
-				688486292512FD16003823FD /* RAMAnimatedTabBarController */,
-				6884863E2512FD16003823FD /* PermissionService */,
 			);
 			path = Vendor;
 			sourceTree = "<group>";
@@ -562,226 +497,6 @@
 			path = HandyJSON;
 			sourceTree = "<group>";
 		};
-		688486292512FD16003823FD /* RAMAnimatedTabBarController */ = {
-			isa = PBXGroup;
-			children = (
-				6884862A2512FD16003823FD /* RAMAnimatedTabBarItem.swift */,
-				6884862B2512FD16003823FD /* Utilities */,
-				6884862D2512FD16003823FD /* BottomLine */,
-				6884862F2512FD16003823FD /* RAMAnimatedTabBarController.swift */,
-				688486302512FD16003823FD /* RAMBadge */,
-				688486322512FD16003823FD /* RAMItemAnimationProtocol.swift */,
-				688486332512FD16003823FD /* Animations */,
-			);
-			path = RAMAnimatedTabBarController;
-			sourceTree = "<group>";
-		};
-		6884862B2512FD16003823FD /* Utilities */ = {
-			isa = PBXGroup;
-			children = (
-				6884862C2512FD16003823FD /* Collection+Extensions.swift */,
-			);
-			path = Utilities;
-			sourceTree = "<group>";
-		};
-		6884862D2512FD16003823FD /* BottomLine */ = {
-			isa = PBXGroup;
-			children = (
-				6884862E2512FD16003823FD /* RAMAnimatedTabBarController+BottomLine.swift */,
-			);
-			path = BottomLine;
-			sourceTree = "<group>";
-		};
-		688486302512FD16003823FD /* RAMBadge */ = {
-			isa = PBXGroup;
-			children = (
-				688486312512FD16003823FD /* RAMBadge.swift */,
-			);
-			path = RAMBadge;
-			sourceTree = "<group>";
-		};
-		688486332512FD16003823FD /* Animations */ = {
-			isa = PBXGroup;
-			children = (
-				688486342512FD16003823FD /* FumeAnimation */,
-				688486362512FD16003823FD /* FrameAnimation */,
-				688486382512FD16003823FD /* TransitionAniamtions */,
-				6884863A2512FD16003823FD /* RotationAnimation */,
-				6884863C2512FD16003823FD /* BounceAnimation */,
-			);
-			path = Animations;
-			sourceTree = "<group>";
-		};
-		688486342512FD16003823FD /* FumeAnimation */ = {
-			isa = PBXGroup;
-			children = (
-				688486352512FD16003823FD /* RAMFumeAnimation.swift */,
-			);
-			path = FumeAnimation;
-			sourceTree = "<group>";
-		};
-		688486362512FD16003823FD /* FrameAnimation */ = {
-			isa = PBXGroup;
-			children = (
-				688486372512FD16003823FD /* RAMFrameItemAnimation.swift */,
-			);
-			path = FrameAnimation;
-			sourceTree = "<group>";
-		};
-		688486382512FD16003823FD /* TransitionAniamtions */ = {
-			isa = PBXGroup;
-			children = (
-				688486392512FD16003823FD /* RAMTransitionItemAnimations.swift */,
-			);
-			path = TransitionAniamtions;
-			sourceTree = "<group>";
-		};
-		6884863A2512FD16003823FD /* RotationAnimation */ = {
-			isa = PBXGroup;
-			children = (
-				6884863B2512FD16003823FD /* RAMRotationAnimation.swift */,
-			);
-			path = RotationAnimation;
-			sourceTree = "<group>";
-		};
-		6884863C2512FD16003823FD /* BounceAnimation */ = {
-			isa = PBXGroup;
-			children = (
-				6884863D2512FD16003823FD /* RAMBounceAnimation.swift */,
-			);
-			path = BounceAnimation;
-			sourceTree = "<group>";
-		};
-		6884863E2512FD16003823FD /* PermissionService */ = {
-			isa = PBXGroup;
-			children = (
-				6884863F2512FD16003823FD /* Core */,
-				688486462512FD16003823FD /* Microphone */,
-				688486482512FD16003823FD /* SpeechRecognition */,
-				6884864A2512FD16003823FD /* Camera */,
-				6884864C2512FD16003823FD /* Location */,
-				6884864F2512FD16003823FD /* Gallery */,
-				688486512512FD16003823FD /* Contacts */,
-				688486532512FD16003823FD /* Reminder */,
-				688486552512FD16003823FD /* Bluetooth */,
-				688486572512FD16003823FD /* Siri */,
-				688486592512FD16003823FD /* MediaLibrary */,
-				6884865B2512FD16003823FD /* Events */,
-				6884865D2512FD16003823FD /* Notifications */,
-			);
-			path = PermissionService;
-			sourceTree = "<group>";
-		};
-		6884863F2512FD16003823FD /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				688486402512FD16003823FD /* Permissible.swift */,
-				688486412512FD16003823FD /* PermissionResult.swift */,
-				688486422512FD16003823FD /* Extensions.swift */,
-				688486432512FD16003823FD /* PermissionConfiguration.swift */,
-				688486442512FD16003823FD /* PermissionService.swift */,
-				688486452512FD16003823FD /* PrivacyConfiguration.swift */,
-			);
-			path = Core;
-			sourceTree = "<group>";
-		};
-		688486462512FD16003823FD /* Microphone */ = {
-			isa = PBXGroup;
-			children = (
-				688486472512FD16003823FD /* Microphone.swift */,
-			);
-			path = Microphone;
-			sourceTree = "<group>";
-		};
-		688486482512FD16003823FD /* SpeechRecognition */ = {
-			isa = PBXGroup;
-			children = (
-				688486492512FD16003823FD /* SpeechRecognition.swift */,
-			);
-			path = SpeechRecognition;
-			sourceTree = "<group>";
-		};
-		6884864A2512FD16003823FD /* Camera */ = {
-			isa = PBXGroup;
-			children = (
-				6884864B2512FD16003823FD /* Camera.swift */,
-			);
-			path = Camera;
-			sourceTree = "<group>";
-		};
-		6884864C2512FD16003823FD /* Location */ = {
-			isa = PBXGroup;
-			children = (
-				6884864D2512FD16003823FD /* Location.swift */,
-				6884864E2512FD16003823FD /* LocationConfiguration.swift */,
-			);
-			path = Location;
-			sourceTree = "<group>";
-		};
-		6884864F2512FD16003823FD /* Gallery */ = {
-			isa = PBXGroup;
-			children = (
-				688486502512FD16003823FD /* Gallery.swift */,
-			);
-			path = Gallery;
-			sourceTree = "<group>";
-		};
-		688486512512FD16003823FD /* Contacts */ = {
-			isa = PBXGroup;
-			children = (
-				688486522512FD16003823FD /* Contacts.swift */,
-			);
-			path = Contacts;
-			sourceTree = "<group>";
-		};
-		688486532512FD16003823FD /* Reminder */ = {
-			isa = PBXGroup;
-			children = (
-				688486542512FD16003823FD /* Reminder.swift */,
-			);
-			path = Reminder;
-			sourceTree = "<group>";
-		};
-		688486552512FD16003823FD /* Bluetooth */ = {
-			isa = PBXGroup;
-			children = (
-				688486562512FD16003823FD /* Bluetooth.swift */,
-			);
-			path = Bluetooth;
-			sourceTree = "<group>";
-		};
-		688486572512FD16003823FD /* Siri */ = {
-			isa = PBXGroup;
-			children = (
-				688486582512FD16003823FD /* Siri.swift */,
-			);
-			path = Siri;
-			sourceTree = "<group>";
-		};
-		688486592512FD16003823FD /* MediaLibrary */ = {
-			isa = PBXGroup;
-			children = (
-				6884865A2512FD16003823FD /* MediaLibrary.swift */,
-			);
-			path = MediaLibrary;
-			sourceTree = "<group>";
-		};
-		6884865B2512FD16003823FD /* Events */ = {
-			isa = PBXGroup;
-			children = (
-				6884865C2512FD16003823FD /* Events.swift */,
-			);
-			path = Events;
-			sourceTree = "<group>";
-		};
-		6884865D2512FD16003823FD /* Notifications */ = {
-			isa = PBXGroup;
-			children = (
-				6884865E2512FD16003823FD /* Notifications.swift */,
-			);
-			path = Notifications;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -859,7 +574,6 @@
 				688486A02512FD17003823FD /* ConstraintItem.swift in Sources */,
 				688486632512FD16003823FD /* UITabBarController.swift in Sources */,
 				688486692512FD16003823FD /* UIButton.swift in Sources */,
-				688486D52512FD17003823FD /* RAMBounceAnimation.swift in Sources */,
 				6884869C2512FD17003823FD /* ConstraintMaker.swift in Sources */,
 				688486A92512FD17003823FD /* Metadata.swift in Sources */,
 				6884867A2512FD17003823FD /* YHPopView.swift in Sources */,
@@ -868,15 +582,11 @@
 				6884868C2512FD17003823FD /* ConstraintPriorityTarget.swift in Sources */,
 				6884867C2512FD17003823FD /* YHButton.swift in Sources */,
 				688486B12512FD17003823FD /* ExtendCustomModelType.swift in Sources */,
-				688486D02512FD17003823FD /* RAMItemAnimationProtocol.swift in Sources */,
 				688486BC2512FD17003823FD /* OtherExtension.swift in Sources */,
 				688486C32512FD17003823FD /* TransformType.swift in Sources */,
 				6884869D2512FD17003823FD /* ConstraintRelation.swift in Sources */,
-				688486D82512FD17003823FD /* Extensions.swift in Sources */,
 				688486B82512FD17003823FD /* EnumTransform.swift in Sources */,
-				688486D92512FD17003823FD /* PermissionConfiguration.swift in Sources */,
 				688486C92512FD17003823FD /* TransformOf.swift in Sources */,
-				688486D62512FD17003823FD /* Permissible.swift in Sources */,
 				688486C12512FD17003823FD /* AnyExtensions.swift in Sources */,
 				688486B52512FD17003823FD /* URLTransform.swift in Sources */,
 				688486602512FD16003823FD /* UIView.swift in Sources */,
@@ -885,12 +595,8 @@
 				6884868D2512FD17003823FD /* ConstraintInsets.swift in Sources */,
 				688486AC2512FD17003823FD /* HexColorTransform.swift in Sources */,
 				6884859C2512FC54003823FD /* AppDelegate.swift in Sources */,
-				688486E72512FD17003823FD /* Events.swift in Sources */,
 				688486752512FD16003823FD /* NSObject.swift in Sources */,
-				688486D42512FD17003823FD /* RAMRotationAnimation.swift in Sources */,
-				688486D32512FD17003823FD /* RAMTransitionItemAnimations.swift in Sources */,
 				688486812512FD17003823FD /* YHBaseViewController.swift in Sources */,
-				688486DE2512FD17003823FD /* Camera.swift in Sources */,
 				688486C02512FD17003823FD /* HelpingMapper.swift in Sources */,
 				688486892512FD17003823FD /* ConstraintMakerPriortizable.swift in Sources */,
 				688486712512FD16003823FD /* UINavigationController.swift in Sources */,
@@ -904,34 +610,23 @@
 				688486682512FD16003823FD /* UICollectionViewFlowLayout.swift in Sources */,
 				688486BF2512FD17003823FD /* BuiltInBridgeType.swift in Sources */,
 				688486C72512FD17003823FD /* Serializer.swift in Sources */,
-				688486E62512FD17003823FD /* MediaLibrary.swift in Sources */,
 				688486862512FD17003823FD /* ConstraintMultiplierTarget.swift in Sources */,
-				688486CE2512FD17003823FD /* RAMAnimatedTabBarController.swift in Sources */,
 				688486B62512FD17003823FD /* NSDecimalNumberTransform.swift in Sources */,
 				688486942512FD17003823FD /* UILayoutSupport+Extensions.swift in Sources */,
 				688486972512FD17003823FD /* ConstraintLayoutSupport.swift in Sources */,
 				688486782512FD16003823FD /* DispatchTime.swift in Sources */,
-				688486D12512FD17003823FD /* RAMFumeAnimation.swift in Sources */,
 				6884869F2512FD17003823FD /* ConstraintView+Extensions.swift in Sources */,
-				688486DF2512FD17003823FD /* Location.swift in Sources */,
 				688486872512FD17003823FD /* LayoutConstraintItem.swift in Sources */,
 				688486962512FD17003823FD /* ConstraintLayoutGuide.swift in Sources */,
 				688486A52512FD17003823FD /* ConstraintLayoutGuide+Extensions.swift in Sources */,
-				688486E52512FD17003823FD /* Siri.swift in Sources */,
 				688486BA2512FD17003823FD /* FieldDescriptor.swift in Sources */,
-				688486842512FD17003823FD /* YHBaseTabBarController.swift in Sources */,
 				688486802512FD17003823FD /* SwiftGlobal.swift in Sources */,
 				688486BD2512FD17003823FD /* Deserializer.swift in Sources */,
 				688486852512FD17003823FD /* SwiftyJSON.swift in Sources */,
 				6884867D2512FD17003823FD /* YHBorderLabel.swift in Sources */,
 				688486762512FD16003823FD /* NSAttributedString.swift in Sources */,
-				688486E32512FD17003823FD /* Reminder.swift in Sources */,
 				688486AA2512FD17003823FD /* CustomDateFormatTransform.swift in Sources */,
 				688486982512FD17003823FD /* Typealiases.swift in Sources */,
-				688486E02512FD17003823FD /* LocationConfiguration.swift in Sources */,
-				688486E12512FD17003823FD /* Gallery.swift in Sources */,
-				688486CD2512FD17003823FD /* RAMAnimatedTabBarController+BottomLine.swift in Sources */,
-				688486D72512FD17003823FD /* PermissionResult.swift in Sources */,
 				6884865F2512FD16003823FD /* Constants.swift in Sources */,
 				688486672512FD16003823FD /* UITableViewCell.swift in Sources */,
 				688486922512FD17003823FD /* ConstraintInsetTarget.swift in Sources */,
@@ -941,7 +636,6 @@
 				688486A72512FD17003823FD /* ConstraintMakerRelatable.swift in Sources */,
 				688486BB2512FD17003823FD /* BuiltInBasicType.swift in Sources */,
 				688486A32512FD17003823FD /* ConstraintRelatableTarget.swift in Sources */,
-				688486DA2512FD17003823FD /* PermissionService.swift in Sources */,
 				688486AD2512FD17003823FD /* Transformable.swift in Sources */,
 				688486B22512FD17003823FD /* Measuable.swift in Sources */,
 				6884869A2512FD17003823FD /* ConstraintOffsetTarget.swift in Sources */,
@@ -953,11 +647,9 @@
 				688486652512FD16003823FD /* UITableView.swift in Sources */,
 				688486992512FD17003823FD /* ConstraintConstantTarget.swift in Sources */,
 				688486822512FD17003823FD /* YHBaseModel.swift in Sources */,
-				688486CB2512FD17003823FD /* RAMAnimatedTabBarItem.swift in Sources */,
 				688486612512FD16003823FD /* UIColor.swift in Sources */,
 				688486C52512FD17003823FD /* PropertyInfo.swift in Sources */,
 				688486AE2512FD17003823FD /* PointerType.swift in Sources */,
-				688486E22512FD17003823FD /* Contacts.swift in Sources */,
 				6884866E2512FD16003823FD /* UIScreen.swift in Sources */,
 				688486B72512FD17003823FD /* ContextDescriptorType.swift in Sources */,
 				688486B92512FD17003823FD /* CBridge.swift in Sources */,
@@ -967,13 +659,9 @@
 				6884868B2512FD17003823FD /* ConstraintViewDSL.swift in Sources */,
 				688486622512FD16003823FD /* UIVisualEffectView.swift in Sources */,
 				6884869E2512FD17003823FD /* ConstraintLayoutGuideDSL.swift in Sources */,
-				688486CC2512FD17003823FD /* Collection+Extensions.swift in Sources */,
-				688486E42512FD17003823FD /* Bluetooth.swift in Sources */,
-				688486DB2512FD17003823FD /* PrivacyConfiguration.swift in Sources */,
 				688486AB2512FD17003823FD /* Properties.swift in Sources */,
 				688486C22512FD17003823FD /* EnumType.swift in Sources */,
 				688486702512FD16003823FD /* UITextView.swift in Sources */,
-				688486E82512FD17003823FD /* Notifications.swift in Sources */,
 				688486C82512FD17003823FD /* ExtendCustomBasicType.swift in Sources */,
 				688486722512FD16003823FD /* CALayer.swift in Sources */,
 				6884866A2512FD16003823FD /* UIImage.swift in Sources */,
@@ -981,18 +669,14 @@
 				6884867B2512FD17003823FD /* YHNavigationBar.swift in Sources */,
 				688486742512FD16003823FD /* BaseNumber.swift in Sources */,
 				688486952512FD17003823FD /* ConstraintView.swift in Sources */,
-				688486CF2512FD17003823FD /* RAMBadge.swift in Sources */,
-				688486DD2512FD17003823FD /* SpeechRecognition.swift in Sources */,
 				688486882512FD17003823FD /* ConstraintDescription.swift in Sources */,
 				688486932512FD17003823FD /* ConstraintConfig.swift in Sources */,
 				688486A42512FD17003823FD /* LayoutConstraint.swift in Sources */,
 				688486A82512FD17003823FD /* ReflectionHelper.swift in Sources */,
 				6884868A2512FD17003823FD /* ConstraintAttributes.swift in Sources */,
-				688486D22512FD17003823FD /* RAMFrameItemAnimation.swift in Sources */,
 				688486AF2512FD17003823FD /* Logger.swift in Sources */,
 				6884868F2512FD17003823FD /* ConstraintDSL.swift in Sources */,
 				688486902512FD17003823FD /* ConstraintMakerExtendable.swift in Sources */,
-				688486DC2512FD17003823FD /* Microphone.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

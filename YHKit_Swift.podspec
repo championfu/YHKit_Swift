@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "YHKit_Swift"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "一个方便iOS开发的工具箱"
 
   # This description is used to generate tags and improve search results.
@@ -93,7 +93,47 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes/**/*"
+  # spec.source_files  = "Classes/**/*"
+  spec.subspec 'Extension' do |ss|
+    ss.subspec 'UIKit' do |sss|
+      sss.source_files = "Classes/Extension/UIKit/*"
+    end
+    ss.subspec 'Other' do |sss|
+      sss.source_files = "Classes/Extension/Other/*"
+    end
+    ss.subspec 'Foundation' do |sss|
+      sss.source_files = "Classes/Extension/Foundation/*"
+    end
+  end
+
+  spec.subspec 'Utilities' do |ss|
+    ss.subspec 'UIKit' do |sss|
+      sss.source_files = "Classes/Utilities/UIKit/*"
+    end
+    ss.subspec 'Other' do |sss|
+      sss.source_files = "Classes/Utilities/Other/*"
+    end
+    ss.subspec 'Foundation' do |sss|
+      sss.source_files = "Classes/Utilities/Foundation/*"
+    end
+  end
+
+  spec.subspec 'Base' do |ss|
+    ss.source_files = "Classes/Base/*"
+  end
+
+  spec.subspec 'Vendor' do |ss|
+    ss.subspec 'SwiftyJSON' do |sss|
+      sss.source_files = "Classes/Vendor/SwiftyJSON/*"
+    end
+    ss.subspec 'SnapKit' do |sss|
+      sss.source_files = "Classes/Vendor/SnapKit/*"
+    end
+    ss.subspec 'HandyJSON' do |sss|
+      sss.source_files = "Classes/Vendor/HandyJSON/*"
+    end
+  end
+
   # 公用头文件
   # spec.public_header_files = "Classes/YHKit-Swift-Bridging-Header.h"
 
