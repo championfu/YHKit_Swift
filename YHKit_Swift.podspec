@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint YHKit-Swift.podspec' to ensure this is a
+#  Be sure to run `pod spec lint YHKit_Swift.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see https://guides.cocoapods.org/syntax/podspec.html
@@ -93,7 +93,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes/**/*.swift", "Classes"
+  spec.source_files  = "Classes/**/*.swift"
   # 公用头文件
   # spec.public_header_files = "Classes/YHKit-Swift-Bridging-Header.h"
 
