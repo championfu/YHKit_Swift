@@ -344,9 +344,7 @@
 		688485AF2512FD16003823FD /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				688485B02512FD16003823FD /* Constants.swift */,
 				688485B12512FD16003823FD /* Extension */,
-				688485CE2512FD16003823FD /* Functions.swift */,
 				688485CF2512FD16003823FD /* Utilities */,
 				688485DA2512FD16003823FD /* Base */,
 				688485DF2512FD16003823FD /* Vendor */,
@@ -435,6 +433,8 @@
 		688485D62512FD16003823FD /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				688485CE2512FD16003823FD /* Functions.swift */,
+				688485B02512FD16003823FD /* Constants.swift */,
 				688485D72512FD16003823FD /* FingerprinteHelper.swift */,
 			);
 			path = Other;
